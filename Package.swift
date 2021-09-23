@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "PopMenu",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v10)],
     products: [
         .library(name: "PopMenu", targets: ["PopMenu"])
     ],
